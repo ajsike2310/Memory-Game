@@ -1,4 +1,35 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Game</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0 20px;
+      background-color: #f8f9fa;
+    }
+    h1, h2, h3 {
+      color: #333;
+    }
+    ul {
+      margin: 10px 0;
+      padding: 0 20px;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 10px;
+      border-left: 3px solid #007bff;
+      overflow-x: auto;
+    }
+    code {
+      color: #d63384;
+    }
+  </style>
+</head>
 <body>
   <h1>Memory Game</h1>
   <p>A simple and fun Memory Game developed using <strong>Flutter</strong>. This game challenges the player's memory by matching pairs of cards in the fewest moves possible.</p>
@@ -10,13 +41,6 @@
     <li>Displays congratulatory messages based on the performance.</li>
     <li>Allows players to restart the game at any time.</li>
   </ul>
-
-  <h2>Screenshots</h2>
-  <div class="screenshot">
-    <!-- Add your screenshots below -->
-    <img src="screenshot1.png" alt="Game Screenshot 1">
-    <img src="screenshot2.png" alt="Game Screenshot 2">
-  </div>
 
   <h2>Installation and Setup</h2>
   <ol>
