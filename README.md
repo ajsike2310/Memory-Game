@@ -1,71 +1,84 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <body>
-  <h1>Memory Game</h1>
-  <p>A simple and fun Memory Game developed using <strong>Flutter</strong>. This game challenges the player's memory by matching pairs of cards in the fewest moves possible.</p>
 
-  <h2>Features</h2>
-  <ul>
-    <li>Interactive and user-friendly interface.</li>
-    <li>Tracks the number of moves taken by the player.</li>
-    <li>Displays congratulatory messages based on the performance.</li>
-    <li>Allows players to restart the game at any time.</li>
-  </ul>
+<h1>🧠 Memory Match Game 🎮</h1>
+<p>A fun and engaging memory game built using Flutter. The game challenges players to match pairs of cards with as few moves as possible, providing a simple yet entertaining experience for all ages.</p>
 
-  <h2>Installation and Setup</h2>
-  <ol>
-    <li>Ensure you have Flutter installed on your system. For installation instructions, refer to the <a href="https://flutter.dev/docs/get-started/install" target="_blank">official Flutter documentation</a>.</li>
-    <li>Clone this repository:
-      <pre><code>git clone https://github.com/ajsike2310/Memory-Game.git</code></pre>
-    </li>
-    <li>Navigate to the project directory:
-      <pre><code>cd memory_game</code></pre>
-    </li>
-    <li>Get the required dependencies:
-      <pre><code>flutter pub get</code></pre>
-    </li>
-    <li>Run the app:
-      <pre><code>flutter run</code></pre>
-    </li>
-  </ol>
+<h2>📋 Features</h2>
+<ul>
+  <li><strong>Interactive Gameplay</strong>: Flip cards, match pairs, and test your memory skills.</li>
+  <li><strong>Move Counter</strong>: Tracks the number of moves made during the game.</li>
+  <li><strong>Customizable Grid</strong>: Change the number of cards for varied difficulty levels.</li>
+  <li><strong>Restart Option</strong>: Reset the game anytime to start over.</li>
+</ul>
 
-  <h2>Gameplay</h2>
-  <ol>
-    <li>The game starts with a shuffled set of cards.</li>
-    <li>Tap on a card to reveal it.</li>
-    <li>Match pairs of cards by remembering their positions.</li>
-    <li>The game tracks the number of moves taken.</li>
-    <li>A congratulatory message is shown once all pairs are matched.</li>
-  </ol>
+<h2>⚙️ Prerequisites</h2>
+<p>Before running the application, make sure you have:</p>
+<ul>
+  <li><strong>Flutter SDK</strong> installed on your system. (Follow the <a href="https://flutter.dev/docs/get-started/install" target="_blank">official guide</a>.)</li>
+  <li><strong>Dart Programming Language</strong>, included with Flutter.</li>
+  <li><strong>Visual Studio Code</strong> or any preferred code editor for Flutter development.</li>
+</ul>
 
-  <h2>Code Overview</h2>
-  <p>The game logic is implemented in the <code>MemoryGameHome</code> widget, which uses the following key components:</p>
-  <ul>
-    <li><strong>State Management:</strong> Maintains the revealed state of each card and tracks the number of moves.</li>
-    <li><strong>GridView:</strong> Displays the cards in a grid format.</li>
-    <li><strong>Dialog:</strong> Shows a congratulatory message upon completing the game.</li>
-  </ul>
+<h2>📦 Setup Instructions</h2>
 
-  <h2>How It Works</h2>
-  <ol>
-    <li>The cards are shuffled and initialized at the start of the game.</li>
-    <li>On tapping a card, it is flipped to reveal its content.</li>
-    <li>If two selected cards match, they remain revealed. Otherwise, they are flipped back after a brief delay.</li>
-    <li>The game checks for completion and displays an appropriate message.</li>
-  </ol>
+<h3>Step 1: Clone the Repository</h3>
+<pre><code>git clone https://github.com/ajsike2310/Memory-Game.git
+cd Memory-Game
+</code></pre>
 
-  <h2>Customization</h2>
-  <ul>
-    <li><strong>Card Content:</strong> Modify the <code>_cards</code> list to include different pairs or more pairs for increased difficulty.</li>
-    <li><strong>Grid Size:</strong> Adjust the <code>crossAxisCount</code> in the <code>GridView.builder</code> to change the number of columns in the grid.</li>
-  </ul>
+<h3>Step 2: Install Dependencies</h3>
+<pre><code>flutter pub get</code></pre>
 
-  <h2>Contributing</h2>
-  <p>Contributions are welcome! If you have ideas to improve the game or fix bugs, feel free to open a pull request.</p>
+<h3>Step 3: Run the Application</h3>
+<pre><code>flutter run</code></pre>
 
-  <h2>License</h2>
-  <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
+<h2>🎮 Gameplay</h2>
+<ol>
+  <li><strong>Flip Cards</strong>: Tap on a card to reveal its content.</li>
+  <li><strong>Match Pairs</strong>: Memorize card positions and match pairs of identical cards.</li>
+  <li><strong>Track Progress</strong>: Keep an eye on your move counter to improve efficiency.</li>
+  <li><strong>Celebrate</strong>: Complete the game to receive a congratulatory message.</li>
+</ol>
 
-  <h2>Acknowledgments</h2>
-  <p>Developed using the amazing Flutter framework. Thanks to the Flutter community for their resources and support.</p>
+<h2>📁 Project Structure</h2>
+<pre><code>MemoryGame/
+├── lib/
+│   ├── main.dart
+│   ├── widgets/
+│   │   ├── game_card.dart
+│   │   └── grid_view.dart
+│   └── utils/
+│       └── game_logic.dart
+├── assets/
+│   ├── card_images/
+│   └── fonts/
+└── pubspec.yaml
+</code></pre>
+
+<h2>📚 Dependencies</h2>
+<ul>
+  <li><strong>Flutter Framework</strong>: Core framework for building the app.</li>
+  <li><strong>Custom Fonts and Assets</strong>: Enhance the game's appearance.</li>
+</ul>
+
+<h2>🚀 Future Enhancements</h2>
+<ul>
+  <li><strong>Leaderboard</strong>: Display top scores for competitive play.</li>
+  <li><strong>Custom Themes</strong>: Allow users to choose from different card themes.</li>
+  <li><strong>Multiple Levels</strong>: Add more difficulty levels with larger grids.</li>
+</ul>
+
+<h2>📜 License</h2>
+<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
+
+<h2>🙏 Acknowledgments</h2>
+<p>Thanks to the Flutter community for their resources and support in creating this project.</p>
+
 </body>
 </html>
