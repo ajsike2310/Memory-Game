@@ -1,35 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Memory Game</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0 20px;
-      background-color: #f8f9fa;
-    }
-    h1, h2, h3 {
-      color: #333;
-    }
-    ul {
-      margin: 10px 0;
-      padding: 0 20px;
-    }
-    pre {
-      background: #f4f4f4;
-      padding: 10px;
-      border-left: 3px solid #007bff;
-      overflow-x: auto;
-    }
-    code {
-      color: #d63384;
-    }
-  </style>
-</head>
+
 <body>
   <h1>Memory Game</h1>
   <p>A simple and fun Memory Game developed using <strong>Flutter</strong>. This game challenges the player's memory by matching pairs of cards in the fewest moves possible.</p>
@@ -46,7 +15,7 @@
   <ol>
     <li>Ensure you have Flutter installed on your system. For installation instructions, refer to the <a href="https://flutter.dev/docs/get-started/install" target="_blank">official Flutter documentation</a>.</li>
     <li>Clone this repository:
-      <pre><code>git clone https://github.com/&lt;your-username&gt;/memory_game.git</code></pre>
+      <pre><code>git clone https://github.com/ajsike2310/Memory-Game.git</code></pre>
     </li>
     <li>Navigate to the project directory:
       <pre><code>cd memory_game</code></pre>
